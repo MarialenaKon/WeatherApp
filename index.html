@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Current Weather Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="weather.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="jumbotron">
+    </div>
+    <div class="container">
+        <div class="row form-group">
+            <h2>
+                <div class="text-center" id="filter_form">
+                    <label for="city_name">What is the current weather in </label>
+                    <input type="text" name="city" id="city"><label style="margin-left: 5px;"> ? </label>
+                    <button type="button" id="submitWeather" class="button">Let´s see! </button>
+                </div>
+            </h2>
+        </div>
+    </div>
+    <div class="background">
+        <div class="transbox">
+            <div id="displayData">
+                <h4 class="text-center">Choose any city in the world!</h4>
+                
+
+            </div>
+        </div>
+    </div>
+<script src="my_weather.js"></script>
+
+</body>
+
+</html>
